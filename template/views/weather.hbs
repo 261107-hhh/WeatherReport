@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    {{>headerlink}}
+</head>
+
+<body>
+    {{>navbar}}
+    <div class="container-fluid main-header">
+        <div class="row">
+            <div class="mid">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="main-content">
+                        <form class="temp-form">
+                            <input type="text" id="cityName" placeholder="Enter city name" autocomplete="off">
+                            <input type="submit" id="submitButton" value="Search">
+                        </form>
+                    </div>
+                    <div class="tempInformation">
+                        <div class="top-layer">
+                            <p id="day">Sunday</p>
+                            <p id="date">26 APR</p>
+                        </div>
+                        <div class="main-layer">
+                            <p id="city-Name">Get Output hear</p>
+                            <div class="middle-layer data-hide">
+                                <p id="temp"><span id="temp-real-val">0</span><sup>&deg;</sup>C</p>
+                                <p id="temp-status"><i class="fas fa-cloud"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{>footer}}
+    <script src="js/main.js"></script>
+</body>
+
+</html>
