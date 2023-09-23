@@ -215,7 +215,7 @@ const Weather = () => {
             try {
                 // http://api.openweathermap.org/data/2.5/find?q=Pune&units=metric&appid=c547ef67b96d8ef0d336091312129403
 
-                let url = `http://api.openweathermap.org/data/2.5/find?q=${cityVal}&units=metric&appid=c547ef67b96d8ef0d336091312129403`;
+                let url = `https://api.openweathermap.org/data/2.5/find?q=${cityVal}&units=metric&appid=c547ef67b96d8ef0d336091312129403`;
                 const response = await fetch(url);
                 //  response = ReadableStream
                 const data = await response.json();
