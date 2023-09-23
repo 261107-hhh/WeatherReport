@@ -14,7 +14,7 @@ const About = () => {
                             {/* <!-- Right side Div --> */}
                             <div className="col-md-6 col-12 main-header-right align_item_center">
                                 <figure className="selfimg">
-                                    <img src="Images/ab.jpg" alt="Self" className="img-fluid" title="Himanshu"/>
+                                    <img src="Images/ab.jpg" alt="Self" className="img-fluid" title="Himanshu" />
                                 </figure>
                             </div>
 
@@ -26,6 +26,12 @@ const About = () => {
                                 <h1>I have also worked as<span className="text-color"> Full stack Developer </span> using Spring Boot and React </h1>
                                 <a href="/about"><button>About Me</button></a>
                             </div>
+                        </div>
+                        <div className="container-fluid main-header-bottom">
+                            <h1>Below are some of my<span className="text-color"> work mentioned do visit them </span>using React, Node and Express. </h1>
+                            {/* <a href="/about"><button>About Me</button></a> */}
+                            <a href="https://velvety-puppy-d0b2a2.netlify.app/"><button>Covid Tracker</button></a>
+                            <a href="https://brilliant-truffle-e90a2e.netlify.app/"><button>Web Series</button></a>
                         </div>
                     </div>
                 </div>

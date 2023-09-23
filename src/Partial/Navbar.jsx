@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Navbar = () => {
     return (
         <>
@@ -5,7 +7,7 @@ const Navbar = () => {
                 <div className="row">
                     <div className="col-md-10 col-22 mx-auto">
                         <nav className="navbar navbar-expand-lg ">
-                            <a className="navbar-brand" href="/"><i className="fas fa-snowflake"></i> GET CURRENT WEATHER  <i
+                            <a className="navbar-brand" href="/"><i className="fas fa-snowflake"></i> GET WEATHER DETAILS <i
                                 className="fas fa-snowflake"></i></a>
                             <button className="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
