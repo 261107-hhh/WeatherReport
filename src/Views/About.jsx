@@ -30,8 +30,8 @@ const About = () => {
                         <div className="container-fluid main-header-bottom">
                             <h1>Below are some of my<span className="text-color"> work mentioned do visit them. </span></h1>
                             {/* <a href="/about"><button>About Me</button></a> */}
-                            <a href="https://velvety-puppy-d0b2a2.netlify.app/"><button>Covid Tracker</button></a>
-                            <a href="https://brilliant-truffle-e90a2e.netlify.app/"><button>Web Series</button></a>
+                            <a href="https://covid19detail.netlify.app/"><button>Covid Tracker</button></a>
+                            <a href="https://webseriesrecommendation.netlify.app/"><button>Web Series</button></a>
                         </div>
                     </div>
                 </div>
