@@ -5,7 +5,7 @@ const Home = () => {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             {/* <!-- Main header --> */}
             <div className="container-fluid main-header">
                 <div className="row">
@@ -51,7 +51,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

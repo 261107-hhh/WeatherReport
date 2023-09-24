@@ -5,7 +5,7 @@ const About = () => {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="container-fluid main-header">
                 <div className="row">
                     <div className="col-md-10 col-12 mx-auto">
@@ -28,7 +28,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="container-fluid main-header-bottom">
-                            <h1>Below are some of my<span className="text-color"> work mentioned do visit them </span>using React, Node and Express. </h1>
+                            <h1>Below are some of my<span className="text-color"> work mentioned do visit them. </span></h1>
                             {/* <a href="/about"><button>About Me</button></a> */}
                             <a href="https://velvety-puppy-d0b2a2.netlify.app/"><button>Covid Tracker</button></a>
                             <a href="https://brilliant-truffle-e90a2e.netlify.app/"><button>Web Series</button></a>
@@ -36,7 +36,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </>
     )

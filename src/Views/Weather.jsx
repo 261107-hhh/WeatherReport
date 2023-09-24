@@ -304,7 +304,7 @@ const Weather = () => {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             
             <div className="container-fluid main-header"
                 style={{
@@ -346,7 +346,7 @@ const Weather = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
 
         </>
     )

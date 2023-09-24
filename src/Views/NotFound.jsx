@@ -1,11 +1,12 @@
 import React from 'react';
 import Navbar from '../Partial/Navbar';
 import Footer from '../Partial/Footer';
+import err from '../images/error2.jpg'
 const NotFound = () => {
 
     return (
         <>
-            <Navbar />
+            {/* <Navbar /> */}
             <div className="container-fluid main-header">
                 <div className="row">
                     <div className="col-md-10 col-12 mx-auto">
@@ -13,7 +14,7 @@ const NotFound = () => {
                             {/* <!-- Left side Div --> */}
                             <div className="col-md-12 col-12 main-header-left align-items-center">
                                 <figure className="errimg">
-                                    <img src="Images/error2.jpg" alt="Error Page" className="img-fluid" title="Himanshu" />
+                                    <img src={err} alt="Error Page" className="img-fluid" title="Himanshu" />
                                 </figure>
                                 <p>404 NotFound</p>
                                 <h1>Go Back to <span className="text-color"> Home </span> Page</h1>
@@ -24,7 +25,7 @@ const NotFound = () => {
                 </div>
             </div>
 
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }
