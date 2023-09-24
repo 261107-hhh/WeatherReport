@@ -1,6 +1,5 @@
 {
   "name": "weather_detection",
-  "homepage": "https://261107-hhh.github.io/WeatherReport",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
