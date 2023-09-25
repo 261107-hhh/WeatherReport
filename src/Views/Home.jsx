@@ -1,6 +1,10 @@
 import React from 'react';
 import Navbar from '../Partial/Navbar';
 import Footer from '../Partial/Footer';
+import img1 from '../images/img1.jpg'
+import img2 from '../images/img2.jpg'
+import img3 from '../images/img3.jpg'
+import img4 from '../images/img4.jpg'
 const Home = () => {
 
     return (
@@ -23,16 +27,16 @@ const Home = () => {
                                     <div className="carousel-inner">
                                         <div className="carousel-item active">
                                         {/* <img src={prod} alt="Product 2" /> */}
-                                            <img className="d-block w-100" src="Images/img1.jpg" alt="First slide"/>
+                                            <img className="d-block w-100" src={img1} alt="First slide"/>
                                         </div>
                                         <div className="carousel-item">
-                                            <img className="d-block w-100" src="Images/img2.jpg" alt="Second slide"/>
+                                            <img className="d-block w-100" src={img2} alt="Second slide"/>
                                         </div>
                                         <div className="carousel-item">
-                                            <img className="d-block w-100" src="Images/img3.jpg" alt="Third slide"/>
+                                            <img className="d-block w-100" src={img3} alt="Third slide"/>
                                         </div>
                                         <div className="carousel-item">
-                                            <img className="d-block w-100" src="Images/img4.jpg" alt="Fourth slide"/>
+                                            <img className="d-block w-100" src={img4} alt="Fourth slide"/>
                                         </div>
                                     </div>
                                     <a className="carousel-control-prev" href="#carouselExampleControls" role="button"

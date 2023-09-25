@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.475fec9c.css",
-    "main.js": "/static/js/main.860a93c8.js",
-    "static/js/787.48bc4d87.chunk.js": "/static/js/787.48bc4d87.chunk.js",
-    "static/media/error2.jpg": "/static/media/error2.ea28d18543354860086c.jpg",
-    "index.html": "/index.html",
-    "main.475fec9c.css.map": "/static/css/main.475fec9c.css.map",
-    "main.860a93c8.js.map": "/static/js/main.860a93c8.js.map",
-    "787.48bc4d87.chunk.js.map": "/static/js/787.48bc4d87.chunk.js.map"
+    "main.css": "/www.hn.com/static/css/main.475fec9c.css",
+    "main.js": "/www.hn.com/static/js/main.b9d01fc9.js",
+    "static/js/787.48bc4d87.chunk.js": "/www.hn.com/static/js/787.48bc4d87.chunk.js",
+    "static/media/img3.jpg": "/www.hn.com/static/media/img3.d92bd9ae5f9b88f90c4d.jpg",
+    "static/media/img2.jpg": "/www.hn.com/static/media/img2.58b3bc1ddb5098e70087.jpg",
+    "static/media/img1.jpg": "/www.hn.com/static/media/img1.5562cf65ba3493a18747.jpg",
+    "static/media/img4.jpg": "/www.hn.com/static/media/img4.8f33ad870544cb82d68a.jpg",
+    "static/media/error2.jpg": "/www.hn.com/static/media/error2.ea28d18543354860086c.jpg",
+    "static/media/ab.jpg": "/www.hn.com/static/media/ab.443ee26d05fda9740018.jpg",
+    "index.html": "/www.hn.com/index.html",
+    "main.475fec9c.css.map": "/www.hn.com/static/css/main.475fec9c.css.map",
+    "main.b9d01fc9.js.map": "/www.hn.com/static/js/main.b9d01fc9.js.map",
+    "787.48bc4d87.chunk.js.map": "/www.hn.com/static/js/787.48bc4d87.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.475fec9c.css",
-    "static/js/main.860a93c8.js"
+    "static/js/main.b9d01fc9.js"
   ]
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Partial/Navbar';
 import Footer from '../Partial/Footer';
+import about from '../images/ab.jpg'
 const About = () => {
 
     return (
@@ -14,7 +15,7 @@ const About = () => {
                             {/* <!-- Right side Div --> */}
                             <div className="col-md-6 col-12 main-header-right align_item_center">
                                 <figure className="selfimg">
-                                    <img src="Images/ab.jpg" alt="Self" className="img-fluid" title="Himanshu" />
+                                    <img src={about} alt="Self" className="img-fluid" title="Himanshu" />
                                 </figure>
                             </div>
 
