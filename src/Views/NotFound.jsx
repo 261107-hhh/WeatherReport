@@ -6,7 +6,7 @@ const NotFound = () => {
 
     return (
         <>
-            {/* <Navbar /> */}
+            <Navbar />
             <div className="container-fluid main-header">
                 <div className="row">
                     <div className="col-md-10 col-12 mx-auto">
@@ -25,7 +25,7 @@ const NotFound = () => {
                 </div>
             </div>
 
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }

@@ -6,7 +6,7 @@ const About = () => {
 
     return (
         <>
-            {/* <Navbar /> */}
+            <Navbar />
             <div className="container-fluid main-header">
                 <div className="row">
                     <div className="col-md-10 col-12 mx-auto">
@@ -37,7 +37,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
+            <Footer />
 
         </>
     )
